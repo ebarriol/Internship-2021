@@ -1,0 +1,14 @@
+mode : 'predict'
+# mode : 'ts'
+#mode : 'train'
+# input_path : 'models/preTrainedMt/eval_input'
+input_path : 'test_dataset'
+output path : 'test_output'
+
+weights_path : 'models/preTrainedMt/trained_weights3.h5'
+patch_size : 512
+batch_size : 2
+data_type : '*.tif'
+nepochs: 1
+
+
